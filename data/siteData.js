@@ -193,6 +193,26 @@ window.siteData = {
       src: "https://raw.githubusercontent.com/netbox-community/netbox/main/docs/netbox_logo_light.svg",
       alt: "NetBox logo",
       group: "automation"
+    },
+    {
+      label: "GitHub",
+      src: "https://cdn.simpleicons.org/github/FFFFFF",
+      alt: "GitHub logo",
+      group: "automation"
+    },
+    {
+      label: "Check Point",
+      src: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Check-Point-2024-logo-color.svg",
+      alt: "Check Point logo",
+      group: "network",
+      lightOnDark: true
+    },
+    {
+      label: "Hermes Agent",
+      src: "https://asvg.app/assets/svg/hermes-agent/hermes-agent-logomark-mono.svg",
+      alt: "Hermes Agent logo",
+      group: "ai",
+      lightOnDark: true
     }
   ],
   platformOverview: [
