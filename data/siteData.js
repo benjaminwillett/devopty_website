@@ -64,7 +64,7 @@ window.siteData = {
   technologyBadges: [
     {
       label: "AWS",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      src: "aws.svg",
       alt: "AWS logo",
       group: "cloud",
       lightOnDark: true
