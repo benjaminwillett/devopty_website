@@ -1776,6 +1776,25 @@ img {
     max-width: 100%;
   }
 
+  .ecosystem-card .tech-badge-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ecosystem-card .tech-badge {
+    min-width: 0;
+    justify-content: flex-start;
+    gap: 6px;
+    padding: 8px;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+  }
+
+  .ecosystem-card .tech-badge-logo {
+    width: 26px;
+    height: 22px;
+  }
+
   .cta-panel {
     grid-template-columns: minmax(0, 1fr);
   }
