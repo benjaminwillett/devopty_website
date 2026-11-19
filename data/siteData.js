@@ -8,13 +8,13 @@ window.siteData = {
     { label: "Contact", href: "#contact" }
   ],
   hero: {
-    eyebrow: "NetDevOps Platform",
+    eyebrow: "NetDevOps Tool",
     title: "Enterprise Network Automation & Infrastructure Intelligence",
-    subtitle: "Modern NetDevOps platform for visibility, automation, compliance, observability, and AI-assisted operations.",
+    subtitle: "Modern NetDevOps tool for visibility, automation, compliance, observability, and AI-assisted operations.",
     summary: "Purpose-built for infrastructure teams operating complex, multi-vendor environments where uptime, control, and speed all matter at once.",
     ctas: [
       { label: "Book Demo", href: "#contact", variant: "primary" },
-      { label: "Explore Platform", href: "#dashboards", variant: "secondary" }
+      { label: "Explore the Tool", href: "#dashboards", variant: "secondary" }
     ],
     stats: [
       { label: "Infrastructure availability", value: 99.98, suffix: "%" },
@@ -42,7 +42,7 @@ window.siteData = {
   technologyGroups: [
     {
       key: "cloud",
-      title: "Cloud & Platform",
+      title: "Cloud & Tool",
       description: "Infrastructure primitives, orchestration layers, and control-plane foundations."
     },
     {
@@ -53,12 +53,12 @@ window.siteData = {
     {
       key: "network",
       title: "Network & Security",
-      description: "Multi-vendor routing, edge, and policy platforms supported by the estate."
+      description: "Multi-vendor routing, edge, and policy tools supported by the estate."
     },
     {
       key: "ai",
       title: "AI & Intelligence",
-      description: "Reasoning, orchestration, and operator-assist systems connected into the platform."
+      description: "Reasoning, orchestration, and operator-assist systems connected into the tool."
     }
   ],
   technologyBadges: [
@@ -229,7 +229,7 @@ window.siteData = {
     { icon: "map", title: "Infrastructure Mapping", description: "Topology views that connect devices, links, services, and failure domains across layers." },
     { icon: "firewall", title: "Firewall Visibility", description: "Rule posture, URL risk, policy validation, and secure change visibility across perimeter stacks." },
     { icon: "route", title: "Routing Intelligence", description: "Understand paths, neighbours, VRFs, route leakage, and protocol behaviour before it becomes an outage." },
-    { icon: "chart", title: "Monitoring Integrations", description: "Ingest telemetry from existing monitoring, SIEM, and observability platforms without duplicating effort." },
+    { icon: "chart", title: "Monitoring Integrations", description: "Ingest telemetry from existing monitoring, SIEM, and observability tools without duplicating effort." },
     { icon: "asset", title: "Asset Intelligence", description: "Correlate hardware, software, lifecycle, and business context into actionable inventory views." },
     { icon: "dns", title: "DNS Validation", description: "Validate records, dependencies, hygiene, and change impact across critical service zones." },
     { icon: "nodes", title: "Multi-vendor Automation", description: "Operate mixed Cisco, Palo Alto, Fortinet, Extreme, Juniper, and cloud estates from one control plane." },
@@ -267,7 +267,7 @@ window.siteData = {
     { label: "Asset risk", value: 66 }
   ],
   dashboards: [
-    { tag: "Platform", title: "DEVOPTY Platform Overview", metric: "Product suite showcase", description: "DEVOPTY product surfaces across topology, monitoring, reporting, and mobile-friendly operations views.", image: "assets/devopty-productshot-suite.png" },
+    { tag: "Tool", title: "DEVOPTY Tool Overview", metric: "Product suite showcase", description: "DEVOPTY product surfaces across topology, monitoring, reporting, and mobile-friendly operations views.", image: "assets/devopty-productshot-suite.png" },
     { tag: "NOC", title: "Network Operations Dashboard", metric: "45 regions monitored", description: "Live estate health, topology changes, and automation throughput across core and edge environments.", image: "assets/devopty-noc.png" },
     { tag: "SecOps", title: "Firewall Audit Dashboard", metric: "92% policy alignment", description: "Policy hygiene, URL analysis, risk summaries, and remediation candidates for perimeter controls.", image: "assets/devopty-engineershot1.png" },
     { tag: "Routing", title: "Routing Intelligence Dashboard", metric: "17 active protocols", description: "Protocol state, path health, next-hop analysis, and VRF visibility for high-consequence networks.", image: "assets/devopty-productshot2.png" },
@@ -290,8 +290,8 @@ window.siteData = {
     { icon: "asset", title: "Enterprise", description: "Standardise multi-site operations, reduce drift, and accelerate infrastructure delivery." },
     { icon: "radar", title: "Education", description: "Gain oversight of distributed campuses, wireless estates, and high-change environments." },
     { icon: "shield", title: "Government", description: "Support accountable change, operational assurance, and secure observability for critical estates." },
-    { icon: "chart", title: "Finance", description: "Improve control, evidence, and resilience for regulated networks and security-sensitive platforms." },
-    { icon: "map", title: "Multi-site organisations", description: "Manage branches, warehouses, remote offices, and central services from one platform." }
+    { icon: "chart", title: "Finance", description: "Improve control, evidence, and resilience for regulated networks and security-sensitive tools." },
+    { icon: "map", title: "Multi-site organisations", description: "Manage branches, warehouses, remote offices, and central services from one tool." }
   ],
   about: {
     title: "Built by infrastructure professionals",
