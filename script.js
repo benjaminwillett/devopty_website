@@ -318,7 +318,7 @@
       const body = [
         "Hello DEVOPTY,",
         "",
-        "I want to discuss the platform.",
+        "I want to discuss the tool.",
         "",
         `Name: ${name || "Not provided"}`,
         `Email: ${email || "Not provided"}`,
