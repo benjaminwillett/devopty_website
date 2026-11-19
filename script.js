@@ -241,6 +241,7 @@
         <div class="dashboard-copy">
           <h3>${dashboard.title}</h3>
           <p>${dashboard.description}</p>
+          ${dashboard.image ? `<a class="dashboard-image-link" href="${dashboard.image}" target="_blank" rel="noopener" aria-label="View ${dashboard.title} image (opens in a new tab)">View full-size image ↗</a>` : ""}
         </div>`;
       wrap.appendChild(card);
     });
