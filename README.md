@@ -14,11 +14,11 @@ Premium single-page marketing site for DEVOPTY built with Flask plus plain HTML,
 ## Structure
 
 - `app.py` - lightweight Flask server for local and simple hosted deployment
-- `index.html` - semantic single-page shell and SEO metadata
-- `styles.css` - full cinematic design system and responsive layout
-- `script.js` - rendering, reveal animations, counters, navigation state, and parallax
-- `data/siteData.js` - all editable content in one place
-- `assets/` - social preview and hero placeholder visuals
+- `index.html` - the whole page: all content and SEO metadata
+- `styles.css` - design tokens, layout and responsive rules
+- `script.js` - mobile navigation and the contact form (opens the visitor's email app)
+- `assets/netopty/` - Netopty sample report pages; `assets/tools/` - tool images generated from synthetic data
+- `assets/` - logo and social preview image
 - `robots.txt` and `sitemap.xml` - search engine support
 - `requirements.txt` - Python dependency list for the Flask wrapper
 
@@ -58,16 +58,7 @@ Static hosting options include:
 
 ## Content updates
 
-Edit `data/siteData.js` to change:
-
-- hero copy and stats
-- navigation labels
-- overview cards
-- capability cards
-- dashboard entries
-- enterprise features
-- use cases
-- contact links
+All page content is plain HTML in `index.html`. Edit the text there; there is no separate data file.
 
 ## Flask notes
 
