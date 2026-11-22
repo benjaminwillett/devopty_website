@@ -1892,3 +1892,30 @@ img {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Phones: capability cards put the icon beside the title so twelve cards take less height. */
+@media (max-width: 640px) {
+  #capabilities-grid .surface-card {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 14px;
+    align-items: center;
+    min-height: 0;
+    padding: 18px;
+  }
+
+  #capabilities-grid .card-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+  }
+
+  #capabilities-grid .card-title {
+    margin: 0;
+  }
+
+  #capabilities-grid .card-text {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+  }
+}

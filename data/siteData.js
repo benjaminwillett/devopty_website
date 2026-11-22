@@ -1,10 +1,10 @@
 window.siteData = {
   nav: [
-    { label: "Overview", href: "#overview" },
     { label: "Capabilities", href: "#capabilities" },
     { label: "Observability", href: "#observability" },
     { label: "Dashboards", href: "#dashboards" },
-    { label: "Enterprise", href: "#enterprise" },
+    { label: "Ecosystem", href: "#ecosystem" },
+    { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" }
   ],
   hero: {
@@ -267,13 +267,13 @@ window.siteData = {
     { label: "Asset risk", value: 66 }
   ],
   dashboards: [
-    { tag: "Tool", title: "DEVOPTY Tool Overview", metric: "Product suite showcase", description: "DEVOPTY product surfaces across topology, monitoring, reporting, and mobile-friendly operations views.", image: "assets/devopty-productshot-suite.png" },
-    { tag: "NOC", title: "Network Operations Dashboard", metric: "45 regions monitored", description: "Live estate health, topology changes, and automation throughput across core and edge environments.", image: "assets/devopty-noc.png" },
-    { tag: "SecOps", title: "Firewall Audit Dashboard", metric: "92% policy alignment", description: "Policy hygiene, URL analysis, risk summaries, and remediation candidates for perimeter controls.", image: "assets/devopty-engineershot1.png" },
-    { tag: "Routing", title: "Routing Intelligence Dashboard", metric: "17 active protocols", description: "Protocol state, path health, next-hop analysis, and VRF visibility for high-consequence networks.", image: "assets/devopty-productshot2.png" },
-    { tag: "Assets", title: "Asset Intelligence Dashboard", metric: "18.4k managed devices", description: "Hardware lifecycle, vendor spread, model risk, and refresh planning built from real inventory evidence.", image: "assets/devopty-azure-report.png" },
-    { tag: "Wireless", title: "Wireless Operations Dashboard", metric: "702 live SSIDs tracked", description: "AP health, site coverage, controller insights, and WLAN exception tracking at scale.", image: "assets/devopty-engineershot3.png" },
-    { tag: "Governance", title: "Infrastructure Compliance Dashboard", metric: "97% coverage", description: "Control adherence, audit evidence, drift hotspots, and executive-ready assurance reporting.", image: "assets/devopty-azure-report.png" }
+    { tag: "Tool", title: "DEVOPTY Tool Overview", metric: "Product suite showcase", description: "DEVOPTY product surfaces across topology, monitoring, reporting, and mobile-friendly operations views.", image: "assets/devopty-productshot-suite.webp" },
+    { tag: "NOC", title: "Network Operations Dashboard", metric: "45 regions monitored", description: "Live estate health, topology changes, and automation throughput across core and edge environments.", image: "assets/devopty-noc.webp" },
+    { tag: "SecOps", title: "Firewall Audit Dashboard", metric: "92% policy alignment", description: "Policy hygiene, URL analysis, risk summaries, and remediation candidates for perimeter controls.", image: "assets/devopty-engineershot1.webp" },
+    { tag: "Routing", title: "Routing Intelligence Dashboard", metric: "17 active protocols", description: "Protocol state, path health, next-hop analysis, and VRF visibility for high-consequence networks.", image: "assets/devopty-productshot2.webp" },
+    { tag: "Assets", title: "Asset Intelligence Dashboard", metric: "18.4k managed devices", description: "Hardware lifecycle, vendor spread, model risk, and refresh planning built from real inventory evidence.", image: "assets/devopty-azure-report.webp" },
+    { tag: "Wireless", title: "Wireless Operations Dashboard", metric: "702 live SSIDs tracked", description: "AP health, site coverage, controller insights, and WLAN exception tracking at scale.", image: "assets/devopty-engineershot3.webp" },
+    { tag: "Governance", title: "Infrastructure Compliance Dashboard", metric: "97% coverage", description: "Control adherence, audit evidence, drift hotspots, and executive-ready assurance reporting.", image: "assets/devopty-azure-report.webp" }
   ],
   enterpriseFeatures: [
     { icon: "auth", title: "Role-based access", description: "Scoped access for engineering, operations, and leadership teams." },
@@ -301,19 +301,19 @@ window.siteData = {
         label: "Network Operations",
         name: "Operations Engineering",
         description: "Infrastructure practitioners focused on visibility, topology, pre-change validation, and reliable day-two operations.",
-        image: "assets/devopty-engineershot2.png"
+        image: "assets/devopty-engineershot2.webp"
       },
       {
         label: "Security Operations",
         name: "Security & Firewall Review",
         description: "Teams using DEVOPTY to validate policy posture, URL risk, and pre-check evidence before operational change.",
-        image: "assets/devopty-engineershot1.png"
+        image: "assets/devopty-engineershot1.webp"
       },
       {
         label: "Field Delivery",
         name: "Upgrade & Readiness",
         description: "Engineers coordinating hardware upgrades, access validation, and rollout readiness from live infrastructure evidence.",
-        image: "assets/devopty-engineershot3.png"
+        image: "assets/devopty-engineershot3.webp"
       }
     ],
     stats: [

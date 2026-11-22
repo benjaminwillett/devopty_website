@@ -150,6 +150,9 @@
 
   function renderCards(items, selector) {
     const container = select(selector);
+    if (!container) {
+      return;
+    }
     items.forEach((item, index) => {
       const card = create("article", "surface-card reveal");
       card.style.transitionDelay = `${index * 60}ms`;
@@ -169,6 +172,9 @@
     const list = select("#automation-list");
     const phases = select("#automation-phases");
     const map = select("#workflow-map");
+    if (!list || !phases || !map) {
+      return;
+    }
     ["Discover", "Validate", "Execute"].forEach((phase, index) => {
       const panel = create("article", "phase-card");
       panel.innerHTML = `<span>0${index + 1}</span><strong>${phase}</strong><div class="phase-lines"><i></i><i></i><i></i></div>`;
@@ -212,7 +218,7 @@
       const visual = dashboard.image
         ? `
         <div class="dashboard-real-media">
-          <img src="${dashboard.image}" alt="${dashboard.title}" loading="lazy">
+          <img src="${dashboard.image}" alt="${dashboard.title}" loading="lazy" decoding="async">
           <div class="dashboard-real-overlay">
             <span>${dashboard.tag}</span>
             <small>${dashboard.metric}</small>
