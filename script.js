@@ -156,7 +156,11 @@
       const icon = create("span", "card-icon", iconMap[item.icon] || "✦");
       const title = create("h3", "card-title", item.title);
       const description = create("p", "card-text", item.description || item.text);
-      card.append(icon, title, description);
+      card.append(icon);
+      if (item.title) {
+        card.append(title);
+      }
+      card.append(description);
       container.appendChild(card);
     });
   }

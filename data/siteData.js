@@ -42,7 +42,7 @@ window.siteData = {
   technologyGroups: [
     {
       key: "cloud",
-      title: "Cloud & Tool",
+      title: "Cloud & Containers",
       description: "Infrastructure primitives, orchestration layers, and control-plane foundations."
     },
     {
@@ -53,7 +53,7 @@ window.siteData = {
     {
       key: "network",
       title: "Network & Security",
-      description: "Multi-vendor routing, edge, and policy tools supported by the estate."
+      description: "Multi-vendor routing, edge, and policy platforms supported by the estate."
     },
     {
       key: "ai",
@@ -290,7 +290,7 @@ window.siteData = {
     { icon: "asset", title: "Enterprise", description: "Standardise multi-site operations, reduce drift, and accelerate infrastructure delivery." },
     { icon: "radar", title: "Education", description: "Gain oversight of distributed campuses, wireless estates, and high-change environments." },
     { icon: "shield", title: "Government", description: "Support accountable change, operational assurance, and secure observability for critical estates." },
-    { icon: "chart", title: "Finance", description: "Improve control, evidence, and resilience for regulated networks and security-sensitive tools." },
+    { icon: "chart", title: "Finance", description: "Improve control, evidence, and resilience for regulated networks and security-sensitive systems." },
     { icon: "map", title: "Multi-site organisations", description: "Manage branches, warehouses, remote offices, and central services from one tool." }
   ],
   about: {
@@ -328,11 +328,9 @@ window.siteData = {
     email: "hello@devopty.com",
     actions: [
       { label: "Book a Demo", href: "mailto:hello@devopty.com", variant: "primary" },
-      { label: "Contact", href: "mailto:hello@devopty.com", variant: "secondary" },
-      { label: "Visit devopty.com", href: "https://devopty.com", variant: "ghost" }
+      { label: "Contact", href: "mailto:hello@devopty.com", variant: "secondary" }
     ],
     socials: [
-      { label: "Website", href: "https://devopty.com" },
       { label: "LinkedIn", href: "https://www.linkedin.com/company/devopty" },
       { label: "GitHub", href: "https://github.com/devopty" },
       { label: "Email", href: "mailto:hello@devopty.com" }
