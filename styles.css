@@ -222,6 +222,13 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
   .product-reverse .report-stack { order: 0; }
 }
 
+/* Seven navigation links: tighter spacing before the menu button takes over. */
+@media (max-width: 1080px) and (min-width: 861px) {
+  .site-nav { gap: 10px; }
+  .site-nav a:not(.button) { font-size: 14px; white-space: nowrap; }
+  .site-nav .button-small { padding-left: 12px; padding-right: 12px; white-space: nowrap; }
+}
+
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; }
   .site-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; align-items: stretch; gap: 0; padding: 8px var(--gutter) 20px; background: rgba(5, 5, 5, 0.98); border-bottom: 1px solid var(--border); }
