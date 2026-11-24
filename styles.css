@@ -118,6 +118,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .report-stack img { position: absolute; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.14); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6); background: #fff; }
 .report-page { width: 60%; left: 0; bottom: 0; }
 .report-page-back { left: auto; right: 0; bottom: 8%; }
+/* Second product: pages on the left, copy on the right. */
+.product-reverse .report-stack { order: -1; margin-left: 0; margin-right: auto; }
 
 /* ---------- Library ---------- */
 .showcase { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
@@ -217,6 +219,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
   .showcase { grid-template-columns: minmax(0, 1fr); }
   .report-stack { margin-left: 0; }
   .report-stack { max-width: 560px; }
+  .product-reverse .report-stack { order: 0; }
 }
 
 @media (max-width: 860px) {
