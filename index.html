@@ -74,7 +74,7 @@
           <p class="lede">Devopty designs and builds automation for enterprise networks: discovery, documentation, audit and controlled change across switches, firewalls, wireless, load balancers and cloud.</p>
           <div class="actions">
             <a class="button button-primary" href="#contact">Talk to us</a>
-            <a class="button button-secondary" href="#library">See what we have built</a>
+            <a class="button button-secondary" href="https://bookings.cloud.microsoft/owa/calendar/devoptydevoptycom2@snowboarding.com.au/bookings/" target="_blank" rel="noopener" data-booking>Book a call</a>
           </div>
           <ul class="hero-facts" role="list">
             <li><strong>Read-only by default</strong><span>Collection never alters a device</span></li>
@@ -527,6 +527,9 @@
             <h2 id="contact-title">Tell us what you are trying to automate</h2>
             <p class="lede">A short conversation is usually enough to tell whether something in the library fits or whether it needs building.</p>
             <a class="contact-email" href="mailto:hello@devopty.com">hello@devopty.com</a>
+            <div class="actions">
+              <a class="button button-primary" href="https://bookings.cloud.microsoft/owa/calendar/devoptydevoptycom2@snowboarding.com.au/bookings/" target="_blank" rel="noopener" data-booking>Book a call</a>
+            </div>
             <p class="contact-links"><a href="https://www.linkedin.com/company/devopty" rel="noopener">LinkedIn</a><a href="https://github.com/devopty" rel="noopener">GitHub</a><a href="https://www.netopty.com/" rel="noopener">Netopty</a><a href="https://secopty.com/" rel="noopener">Secopty</a><a href="https://sysopty.com/" rel="noopener">Sysopty</a><a href="https://appopty.com/" rel="noopener">Appopty</a></p>
           </div>
           <form class="contact-form" id="contact-form" novalidate>
@@ -548,6 +551,21 @@
       <span>Makers of <a href="https://www.netopty.com/" rel="noopener">Netopty</a>, <a href="https://secopty.com/" rel="noopener">Secopty</a>, <a href="https://sysopty.com/" rel="noopener">Sysopty</a> and <a href="https://appopty.com/" rel="noopener">Appopty</a></span>
     </div>
   </footer>
+
+  <!-- Booking dialog: shows Microsoft Bookings in-page once data-embed-url is set to an
+       embeddable shared Bookings page URL. Until then, "Book a call" opens a new tab
+       (personal "Bookings with me" pages refuse to be framed by other sites). -->
+  <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="booking-title" data-embed-url="https://bookings.cloud.microsoft/owa/calendar/devoptydevoptycom2@snowboarding.com.au/bookings/">
+    <div class="booking-head">
+      <h2 id="booking-title">Book a call</h2>
+      <button class="booking-close" type="button" data-booking-close aria-label="Close booking">&times;</button>
+    </div>
+    <div class="booking-frame">
+      <p class="booking-loading">Loading the booking calendar&hellip;</p>
+      <iframe id="booking-iframe" title="Book a call with Devopty" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <p class="booking-fallback">Calendar not showing? <a id="booking-fallback-link" href="https://bookings.cloud.microsoft/owa/calendar/devoptydevoptycom2@snowboarding.com.au/bookings/" target="_blank" rel="noopener">Open the booking page in a new tab</a>.</p>
+  </dialog>
 
   <script src="script.js"></script>
 </body>

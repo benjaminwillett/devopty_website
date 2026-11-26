@@ -16,7 +16,7 @@ Premium single-page marketing site for DEVOPTY built with Flask plus plain HTML,
 - `app.py` - lightweight Flask server for local and simple hosted deployment
 - `index.html` - the whole page: all content and SEO metadata
 - `styles.css` - design tokens, layout and responsive rules
-- `script.js` - mobile navigation and the contact form (opens the visitor's email app)
+- `script.js` - mobile navigation, the contact form (opens the visitor's email app) and the "Book a call" links. The booking URL appears in `index.html` on each `data-booking` link and on the dialog's fallback link. Those links open the booking page in a new tab. Setting `data-embed-url` on `#booking-dialog` to an embeddable shared Bookings page makes them open the calendar in an in-page dialog instead. The personal "Bookings with me" link cannot be used for that: Microsoft only lets it be framed by its own sites.
 - `assets/netopty/` - Netopty sample report pages; `assets/tools/` - tool images generated from synthetic data
 - `assets/` - logo and social preview image
 - `robots.txt` and `sitemap.xml` - search engine support
